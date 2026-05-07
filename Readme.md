@@ -1,0 +1,2 @@
+- add folder to PATH after cloning.
+- most scripts won't need any admin rights unless needed which is going to be specified in the first line as a comment.
