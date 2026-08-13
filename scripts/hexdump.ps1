@@ -27,7 +27,7 @@ $bytes = [System.IO.File]::ReadAllBytes($Path)
 $offset = 0
 $length = $bytes.Length
 
-# Legend (already in your script)
+# Legend (already in your output)
 Write-Host "Legend:" -ForegroundColor White
 Write-Host "  " -NoNewline; Write-Host "00" -ForegroundColor DarkGray -NoNewline; Write-Host "  = Null byte"
 Write-Host "  " -NoNewline; Write-Host "41" -ForegroundColor Cyan -NoNewline; Write-Host "  = Printable ASCII"
